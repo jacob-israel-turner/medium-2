@@ -1,0 +1,40 @@
+body, html {
+	margin: 0px;
+	padding: 0px;
+}
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+header {
+	padding: 0px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+	height: 65px;
+	width: 100vw;
+	position: fixed;
+}
+#logo {
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+#published {
+	text-align: center;
+	color: #ccc;
+	font-size: .7rem;
+	letter-spacing: 0.2rem;
+}
+#react_tuts {
+	text-align: center;
+	color: #666;
+	font-weight: 900;
+	letter-spacing: 0.2rem;
+	font-size: .8rem;
+}
